@@ -1,0 +1,53 @@
+html {
+    text-align: center;
+    margin-top: 100px;
+    scroll-behavior: smooth !important;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: white;
+}
+p {
+    color: white;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+article {
+    max-width: 700px;
+    text-align: center;
+}
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
